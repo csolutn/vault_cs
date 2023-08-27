@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello World!.md",
+                "file": "2023-08-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello World!.md",
+                "file": "2023-08-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello World!.md",
+                "file": "2023-08-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello World!.md"
+                "file": "2023-08-27.md"
               }
             }
           }
@@ -155,12 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6273c7ce4dc7d1ad",
+  "active": "6b867c7909beeb76",
   "lastOpenFiles": [
     "Hello World!.md",
-    "Untitled",
     "2023-08-27.md",
-    "Hello World!.md",
+    "Untitled",
     "cs"
   ]
 }
