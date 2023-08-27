@@ -13,5 +13,14 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
   ]
 }
