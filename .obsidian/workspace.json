@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "6273c7ce4dc7d1ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello World!.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hello World!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hello World!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hello World!.md"
+              }
             }
           }
         ]
@@ -138,9 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b867c7909beeb76",
+  "active": "6273c7ce4dc7d1ad",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Hello World!.md",
+    "Untitled",
     "2023-08-27.md",
     "Hello World!.md",
     "cs"
