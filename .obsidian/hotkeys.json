@@ -8,7 +8,7 @@
   "obsidian-git:push2": [
     {
       "modifiers": [
-        "Alt",
+        "Ctrl",
         "Mod"
       ],
       "key": "ArrowUp"
@@ -17,7 +17,8 @@
   "obsidian-git:commit": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl",
+        "Shift"
       ],
       "key": "ArrowUp"
     }
