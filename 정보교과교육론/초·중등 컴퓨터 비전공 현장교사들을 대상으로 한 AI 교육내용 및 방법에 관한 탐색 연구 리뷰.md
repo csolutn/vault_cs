@@ -16,7 +16,7 @@
 ### 1. 서론
 
 
-## 인용 논문 사례 (8회)
+## KCI에서 이 논문을 인용한 논문 사례 (8회)
 |   |   |
 |---|---|
 |1.|[고등학교 천문학 수업에서 코딩을 활용한 데이터 기반 탐구활동의 활성화 방안 탐색](https://www-kci-go-kr.proxy.knue.ac.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002920862)<br><br>- [조훈](https://www-kci-go-kr.proxy.knue.ac.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT002870261&citationBean.artiId=ART002920862)<br>- [손정주](https://www-kci-go-kr.proxy.knue.ac.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000275403&citationBean.artiId=ART002920862)<br>- 2022.12<br><br>- [현장과학교육](https://www-kci-go-kr.proxy.knue.ac.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?asereSearBean.insiId=INS000008164&sereSearBean.sereId=SER000002269)<br>- 16 (5)<br>- 602 ~ 618<br><br>- 피인용횟수 : [5](https://www-kci-go-kr.proxy.knue.ac.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002920862#listCita)|
