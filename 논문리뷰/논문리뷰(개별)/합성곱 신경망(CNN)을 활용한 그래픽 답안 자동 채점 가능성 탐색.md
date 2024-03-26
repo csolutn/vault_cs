@@ -5,7 +5,7 @@
 * 합성곱 신경망과 지도학습에 의한 이미지 분류
 * 전이학습, Google Inception V3 소개
 * Inception V3 를 이용한 기존 연구
-* 혼동행렬과 목표
+* 혼동행렬과 목표 : AUC를 우선적으로 고려 + 채점결과가 불리하지 않게 Recall 고려
 	* AUC (Area Under the **ROC** Curve)
 	* ROC Curve : FPR에 따른 TPR
 	* CA (Classification Accuracy): (TP + TN)/(TP+FP+TN+FN)
