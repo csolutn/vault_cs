@@ -1,4 +1,4 @@
-[원문보기](npsm.73.138.pdf)
+[원문보기](attachments/npsm.73.138.pdf)
 ### 1. 서론
 ![](attachments/Pasted%20image%2020240326180742.png)
 
