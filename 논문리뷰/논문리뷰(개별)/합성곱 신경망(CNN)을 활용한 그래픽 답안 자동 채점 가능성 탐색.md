@@ -6,7 +6,7 @@
 * 전이학습, Google Inception V3 소개
 * Inception V3 를 이용한 기존 연구
 * 혼동행렬과 목표
-	* 
+	* AUC (Area Under the ROC Curve)
 #### 2.3. 분석 도구
 * Orange Datamining + Image Analysys
 * 전처리 : Image Embedding (Inception V3 포함 6가지 모형을 통한 특징 추출)
