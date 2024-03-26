@@ -7,7 +7,11 @@
 * Inception V3 를 이용한 기존 연구
 * 혼동행렬과 목표
 	* AUC (Area Under the **ROC** Curve)
-	* ROC Curve : FPR에 따른 TPR 
+	* ROC Curve : FPR에 따른 TPR
+	* CA (Classification Accuracy): (TP + TN)/(TP+FP+TN+FN)
+	* Precision : TP(TP + FP) True로 분류된 것중에 참True 비율
+	* Recall : TP/(TP+FN) 참True 중 True 분류 비율
+	* F1 : 2 $\times$ (Precision $\times$ Recall)/(Precision+Recall)
 #### 2.3. 분석 도구
 * Orange Datamining + Image Analysys
 * 전처리 : Image Embedding (Inception V3 포함 6가지 모형을 통한 특징 추출)
