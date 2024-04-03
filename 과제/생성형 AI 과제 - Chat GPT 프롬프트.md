@@ -46,37 +46,3 @@ ChatGPT
 2. **Exploring Seoul's Landmarks:** "Against the backdrop of Bukchon's quaint alleys, Cheonggyecheon's sparkling night view, and the mesmerizing panorama from Namsan Tower, the two protagonists share moments of joy."
 3. **Romantic Moment on Han River Bridge:** "Under the night sky of the Han River, with the twinkling lights of Seoul's nightscape as a backdrop, the two protagonists look into each other's eyes and smile."
 
-![User](https://s.gravatar.com/avatar/dd016f51c8c458b84ee784c5a5f82343?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmk.png)
-
-Autumn Scenery of Gyeongbokgung Palace: Nouns: Gyeongbokgung Palace, autumn ambiance, female protagonist, hanbok, male protagonist, suit, atmosphere Adjectives: serene, poetic, graceful, elegant, sophisticated, refined, tranquil Exploring Seoul's Landmarks: Nouns: Seoul's landmarks, alleys, Bukchon, night view, Cheonggyecheon Stream, panorama, Namsan Tower, protagonists, moments Adjectives: quaint, shimmering, enchanting, blissful Romantic Moment on Han River Bridge: Nouns: Han River, night sky, city lights, Seoul's skyline, protagonists, eyes, embrace Adjectives: romantic, twinkling 각 장면에 맞는 이미지를 하나씩 생성해줘
-
-ChatGPT
-
-Error creating image
-
-Creating image
-
-![User](https://s.gravatar.com/avatar/dd016f51c8c458b84ee784c5a5f82343?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmk.png)
-
-Autumn Scenery of Gyeongbokgung Palace: Nouns: Gyeongbokgung Palace, autumn ambiance, female protagonist, hanbok, male protagonist, suit, atmosphere Adjectives: serene, poetic, graceful, elegant, sophisticated, refined, tranquil Exploring Seoul's Landmarks: 이미지를 생성해줘
-
-2 / 2
-
-ChatGPT
-
-![A serene and poetic autumn scene at Gyeongbokgung Palace in Seoul. The setting is tranquil and filled with the refined elegance of the female protagonist wearing a graceful hanbok and the male protagonist in a sophisticated suit, both walking hand in hand, surrounded by the enchanting atmosphere of autumn leaves.](https://files.oaiusercontent.com/file-vA1Hxr6Wzc4ZOpTJeTwCgfLy?se=2024-04-03T02%3A48%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D24fe0cca-50bb-4fc8-afbf-ee73e08b8d64.webp&sig=PSQZVgU/XnWAyEZ4ZbNSgOVcEAQ7sYwnIP6%2BAfMCW%2BI%3D)
-
-![A quaint and blissful scene capturing the essence of exploring Seoul's landmarks. The image showcases the enchanting alleys of Bukchon, the shimmering night view of Cheonggyecheon Stream, and the captivating panorama from Namsan Tower. The protagonists are seen sharing moments of joy and discovery amidst Seoul's most picturesque and charming locations.](https://files.oaiusercontent.com/file-p0yioo1MNICdCcvS3LJO0dw0?se=2024-04-03T02%3A48%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D2e9344f0-3378-4e97-8dd9-310f9c081f9a.webp&sig=MnNZL1MzP99XNuPEiDi5oc65XRyzjecMkP7tORVhErw%3D)
-
-![A romantic and enchanting evening on the Han River Bridge with the night sky above. The city lights and the twinkling skyline of Seoul create a mesmerizing backdrop. The protagonists share a tender moment, looking into each other's eyes under the romantic glow of the city, embodying the love and magic of Seoul's nightscape.](https://files.oaiusercontent.com/file-Gyd5LHomXz8xXVSHuP4EFkl5?se=2024-04-03T02%3A48%3A16Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D6919f906-8f24-47e6-acb1-f21c94ea4735.webp&sig=%2B955yvywZH/np9OqPBi2gx6TuSXb%2Bk3sq96MYf4Db7c%3D)
-
-I've created images for each scene based on your descriptions:
-
-1. **Autumn Scenery of Gyeongbokgung Palace**: Captures a serene and poetic autumn scene at Gyeongbokgung Palace, with the protagonists in elegant traditional and modern attire.
-    
-2. **Exploring Seoul's Landmarks**: Showcases a quaint and blissful scene as the protagonists explore enchanting alleys of Bukchon, the shimmering night view of Cheonggyecheon Stream, and the captivating panorama from Namsan Tower.
-    
-3. **Romantic Moment on Han River Bridge**: Depicts a romantic and enchanting evening on the Han River Bridge with the night sky above, as the protagonists share a tender moment under the glow of Seoul's city lights.
-    
-
-These images aim to capture the essence of each scene with the described attributes and settings.
