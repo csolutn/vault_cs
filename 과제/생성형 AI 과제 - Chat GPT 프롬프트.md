@@ -1,4 +1,3 @@
-  
 ![User](https://s.gravatar.com/avatar/dd016f51c8c458b84ee784c5a5f82343?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmk.png)
 
 네가 광고 마케터 혹은 광고 디자이너로서 광고를 제작한다고 가정하고 영화 '로마의 휴일'을 오마주한 클래식하고 우아한 분위기의 세련된 서울 관광 홍보 광고 스토리보드를 15초 분량으로 만들어줘
@@ -46,3 +45,19 @@ ChatGPT
 2. **Exploring Seoul's Landmarks:** "Against the backdrop of Bukchon's quaint alleys, Cheonggyecheon's sparkling night view, and the mesmerizing panorama from Namsan Tower, the two protagonists share moments of joy."
 3. **Romantic Moment on Han River Bridge:** "Under the night sky of the Han River, with the twinkling lights of Seoul's nightscape as a backdrop, the two protagonists look into each other's eyes and smile."
 
+![User](https://s.gravatar.com/avatar/dd016f51c8c458b84ee784c5a5f82343?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmk.png)
+
+번역한 문장을 명사, 형용사 위주로 ,로 구분해서 각 한 문장으로 작성해줘
+
+Autumn Scenery of Gyeongbokgung Palace:
+
+Nouns: Gyeongbokgung Palace, autumn ambiance, female protagonist, hanbok, male protagonist, suit, atmosphere 
+Adjectives: serene, poetic, graceful, elegant, sophisticated, refined, tranquil 
+
+Exploring Seoul's Landmarks: 
+Nouns: Seoul's landmarks, alleys, Bukchon, night view, Cheonggyecheon Stream, panorama, Namsan Tower, protagonists, moments 
+Adjectives: quaint, shimmering, enchanting, blissful 
+
+Romantic Moment on Han River Bridge: 
+Nouns: Han River, night sky, city lights, Seoul's skyline, protagonists, eyes, embrace 
+Adjectives: romantic, twinkling
