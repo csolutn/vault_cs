@@ -49,6 +49,8 @@ ChatGPT
 
 번역한 문장을 명사, 형용사 위주로 ,로 구분해서 각 한 문장으로 작성해줘
 
+ChatGPT
+
 Autumn Scenery of Gyeongbokgung Palace:
 
 Nouns: Gyeongbokgung Palace, autumn ambiance, female protagonist, hanbok, male protagonist, suit, atmosphere 
