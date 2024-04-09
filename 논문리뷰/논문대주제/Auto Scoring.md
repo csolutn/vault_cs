@@ -1,1 +1,2 @@
 [합성곱 신경망(CNN)을 활용한 그래픽 답안 자동 채점 가능성 탐색](../논문리뷰(개별)/합성곱%20신경망(CNN)을%20활용한%20그래픽%20답안%20자동%20채점%20가능성%20탐색.md)
+[Revolutionizing subjective assessments A three-pronged comprehensive approach with NLP and DL](../논문리뷰(개별)/Revolutionizing%20subjective%20assessments%20A%20three-pronged%20comprehensive%20approach%20with%20NLP%20and%20DL.md)
