@@ -10,4 +10,4 @@
 #### 3.6. Final scoring module
 * sum  of three numpy Rounded Scores
 * 4-Layerd DNN
-* Final Score
+* Final Score3
