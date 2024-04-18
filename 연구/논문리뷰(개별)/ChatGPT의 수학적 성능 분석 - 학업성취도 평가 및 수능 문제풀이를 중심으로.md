@@ -1,5 +1,5 @@
 권오남 외, J. Korea Soc. Math. Ed. Ser. E: Communications of Mathematical Education Vol. 37, No. 2, Jun. 2023. 233-256, https://doi.org/10.7468/jksmee.2023.37.2.233
-[원문보기](KCI_FI002975707.pdf)
+[원문보기](attachments/KCI_FI002975707.pdf)
 ### 1. 서론
 * 대규모 언어모델과 ChatGPT
 * 수학을 주제로 대화하는 상황에서의 ChatGPT 수학적 논리와 절차의 적절성 및 정확성 점검의 필요성
