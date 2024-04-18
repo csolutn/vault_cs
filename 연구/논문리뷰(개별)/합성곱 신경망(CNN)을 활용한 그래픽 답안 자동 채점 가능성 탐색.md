@@ -1,7 +1,7 @@
 이재봉(한국교육과정평가원), New Physics: Sae Mulli, Vol. 73, No. 2, February 2023, pp. 138∼149
 [원문보기](npsm.73.138.pdf)
 ### 1. 서론
-![](Pasted%20image%2020240326180742.png)
+![](attachments/Pasted%20image%2020240326180742.png)
 
 ### 2. 연구 방법
 #### 2.1. 연구자료
@@ -22,7 +22,7 @@
 * 전처리 : Image Embedding (Inception V3 포함 6가지 모형을 통한 특징 추출)
 * 군집 분리 및 평가 : KNN, SVM, Random Forest, Logistic Reg., Neural Network
 * Figure2(오렌지 화면)설명 및 오렌지를 이용한 도구 소개
-  ![](Pasted%20image%2020240326180831.png)
+  ![](attachments/Pasted%20image%2020240326180831.png)
 
 ### 3. 연구 결과
 #### 3.1. 모형의 적합도
@@ -31,11 +31,11 @@
 * 공백 답안 : 비슷하게 매우 높음
 * 오답의 CA가 정답보다 높음 : 오답 비율이 높기 때문
 * Logistic Regression의 AUC가 가장 높으나 재현율이 85.3%로 보강할 방법이 고안될 필요가 있음
-  ![](Pasted%20image%2020240326194057.png)
+  ![](attachments/Pasted%20image%2020240326194057.png)
 
 * 훈련시 사용되지 않는 데이터의 분류 평가 : 높은 편. 모형이 타당함. 옳은 답안에 대한 재현율Recall이 91%로 다소 낮으므로 실제 적용을 위해서는 개선 또는 자동 채점을 적용하는 절차 마련할 필요가 있음
 #### 3.2. 주요 오분류 사례 (Logistic Regression)
-![](Pasted%20image%2020240326195203.png)
+![](attachments/Pasted%20image%2020240326195203.png)
 * 공백 -> 틀림 (2건) : 
 * 틀림 -> 공백 (3건) : 물체 3개를 바닥에 그려놓음, 의미없는 표식이 있는 경우
 * **틀림 -> 맞음 (43건)** : 일부만 오류가 있는 경우(18개), 3개의 물체를 나란히 표시한 경우(7개), 답안 작성 시 수정내용이 스캔되며 복잡하게 반영(8개), 명확히 틀린 경우(10개)
