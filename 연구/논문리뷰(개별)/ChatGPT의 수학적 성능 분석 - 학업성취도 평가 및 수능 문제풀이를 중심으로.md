@@ -44,27 +44,27 @@
 	* 응답 결과를 한국어로 번역
 	```
 	# 함수화모델 - GPT3.5 Turbo 선택 
-		def chatmath(problem) :
-			model = "gpt-3.5-turbo” 
-			#질문작성하기  
-			query = problen 
-			#메시지설정하기 
-			messages = [
-			{"role": "system", "content”: "You are a helpful assistant."},
-			{"role": "user", "content": query+"이 질문에 답하고 그 결과를 한국어로 
-			번역해주세요.}]
-			#ChatGPT API 호출하기
-			response = openai.ChatCompletion.create(model = model,
-			messages = messages )  
-			answer = response['choices'][0]['message']['content'] 
-			return answer
-		
-		#최종코드 학업성취도  
-		import csv  
-		for i in range(len(data)) : #오류 이후 다시
-			new_list[i].append(chatmath(datali][6]))  
-		with open(“output _final.csv", "₩", newline="",encoding='utf-8') as f:
-			writer = csv.writer(f)
-			writer.writerows(new_list)
+	def chatmath(problem) :
+		model = "gpt-3.5-turbo” 
+		#질문작성하기  
+		query = problem
+		#메시지설정하기 
+		messages = [
+		{"role": "system", "content”: "You are a helpful assistant."},
+		{"role": "user", "content": query + "이 질문에 답하고 그 결과를 한국어로 
+		번역해주세요.}]
+		#ChatGPT API 호출하기
+		response = openai.ChatCompletion.create(model = model,
+		messages = messages )  
+		answer = response['choices'][0]['message']['content']
+		return answer
+	
+	#최종코드 학업성취도  
+	import csv  
+	for i in range(len(data)) : #오류 이후 다시
+		new_list[i].append(chatmath(datali][6]))  
+	with open(“output _final.csv", "₩", newline="",encoding='utf-8') as f:
+		writer = csv.writer(f)
+		writer.writerows(new_list)
 	```
 * ChatGPT 응답 분석
