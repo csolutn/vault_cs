@@ -1,5 +1,6 @@
 권오남 외, J. Korea Soc. Math. Ed. Ser. E: Communications of Mathematical Education Vol. 37, No. 2, Jun. 2023. 233-256, https://doi.org/10.7468/jksmee.2023.37.2.233
 [원문보기](attachments/KCI_FI002975707.pdf)
+
 ## 1. 서론
 * 대규모 언어모델과 ChatGPT
 * 수학을 주제로 대화하는 상황에서의 ChatGPT 수학적 논리와 절차의 적절성 및 정확성 점검의 필요성
@@ -16,11 +17,11 @@
 * 트랜스 포머의 원리와 개념 : 딥러닝 기반 자연어처리 모델
 * GPT의 원리와 개념 : 트랜스포머를 활용하는 모델, 확률 기반 텍스트 생성, 대규모 자연어 데이터 사전 학습, 수학적 문장 이해능력과 문제 풀이 능력은 확인 필요
 ### 2.2. ChatGPT의 성능과 교육의 활용
-* ChatGPT의 성능을 평가한 연구  - 대부분 정확도(accuracy)를 중심으로 평가함
-	* Kung 외(2023) : 미국 의사 면허 자격시험문제 합격수준
-	* OpenAI(2023) : 미 변호사 시험 상위 90%, 미 생물학 올림피아드 43점(상위 48%)
-	* Azaria(2022) : 큰 수 연산, 거듭제곱(분수) 계산, 무리수 와 같은 연산 오류
-	* Frieder(2023) : 대학원 수준의 수학 문제, 증명 빈칸 추론, 수학 올림피아드 문제를 해결하는 능력이 평균적인 수학 대학원생보다 현저히 낮음을 확인
+#### ChatGPT의 성능을 평가한 연구 : 대부분 정확도(accuracy)를 중심으로 평가함
+* Kung 외(2023) : 미국 의사 면허 자격시험문제 합격수준
+* OpenAI(2023) : 미 변호사 시험 상위 90%, 미 생물학 올림피아드 43점(상위 48%)
+* Azaria(2022) : 큰 수 연산, 거듭제곱(분수) 계산, 무리수 와 같은 연산 오류
+* Frieder(2023) : 대학원 수준의 수학 문제, 증명 빈칸 추론, 수학 올림피아드 문제를 해결하는 능력이 평균적인 수학 대학원생보다 현저히 낮음을 확인
 * ChatGPT 활용 교과교육 연구 - 자연과학 교과교육과 관련된 연구는 찾아보기 어려움
 	* 강동훈(2023) : ChatGPT 등장으로 인한 국어 교육의 변화 방안 제시 
 	* 장성민(2023) : ChatGPT 시대에 필요한 작문 능력의 요소와 교육의 방향 논의
@@ -37,33 +38,39 @@
 	* 20201 ~ 2023 기출문제 152문항 중 144문항
 	![](attachments/Pasted%20image%2020240417172629.png)
 #### 2.3.나. 자료 분석
-* ChatGPT 응답 수집 (2023.04.)
+##### ChatGPT 응답 수집 (2023.04.)
 	* 문제 입력 - 응답수집 - 초기화 반복
 	* ChatGPT 역할 설정 : "helpful assistant"
 	* 응답 결과를 한국어로 번역
-	```
-	# 함수화모델 - GPT3.5 Turbo 선택 
-	def chatmath(problem) :
-		model = "gpt-3.5-turbo” 
-		#질문작성하기  
-		query = problem
-		#메시지설정하기 
-		messages = [
-		{"role": "system", "content”: "You are a helpful assistant."},
-		{"role": "user", "content": query + "이 질문에 답하고 그 결과를 한국어로 
-		번역해주세요.}]
-		#ChatGPT API 호출하기
-		response = openai.ChatCompletion.create(model = model,
-		messages = messages )  
-		answer = response['choices'][0]['message']['content']
-		return answer
+
+```
+def chatmath(problem) :
+
+	# 함수화모델 - GPT3.5 Turbo 선택 
+	model = "gpt-3.5-turbo” 
+
+	#질문작성하기  
+	query = problem
 	
-	#최종코드 학업성취도  
-	import csv  
-	for i in range(len(data)) : #오류 이후 다시
-		new_list[i].append(chatmath(datali][6]))  
-	with open(“output _final.csv", "₩", newline="",encoding='utf-8') as f:
-		writer = csv.writer(f)
-		writer.writerows(new_list)
-	```
-* ChatGPT 응답 분석
+	#메시지설정하기 
+	messages = [
+	{"role": "system", "content”: "You are a helpful assistant."},
+	{"role": "user", "content": query + "이 질문에 답하고 그 결과를 한국어로 
+	번역해주세요.}]
+	
+	#ChatGPT API 호출하기
+	response = openai.ChatCompletion.create(model = model,
+	messages = messages )  
+	answer = response['choices'][0]['message']['content']
+	
+	return answer
+
+#최종코드 학업성취도  
+import csv  
+for i in range(len(data)) : #오류 이후 다시
+new_list[i].append(chatmath(datali][6]))  
+with open(“output _final.csv", "₩", newline="",encoding='utf-8') as f:
+writer = csv.writer(f)
+writer.writerows(new_list)
+```
+##### ChatGPT 응답 분석
