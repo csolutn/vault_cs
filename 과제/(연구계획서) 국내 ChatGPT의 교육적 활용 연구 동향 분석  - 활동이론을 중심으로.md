@@ -10,6 +10,7 @@ source : www.notta.ai (Katharina Buchholz(2023), Threads Shoots Past One Million
 ![](attachments/Pasted%20image%2020240420212805.png)
 출처 : OpenAI blog https://openai.com/blog
 ### 2.2. ChatGPT의 교육적 활용
+
 #### 2.2.1. 연구 동향을 분석한 선행 연구
 #### 2.2.2. 교육분야에서의 주요 기능을 분석한 선행 연구
 ### 2.3. 활동이론
