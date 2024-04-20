@@ -4,7 +4,7 @@
 source : www.notta.ai (Katharina Buchholz(2023), Threads Shoots Past One Million User Mark at Lightning Speed, Statista, https://www.statista.com/chart/29174/time-to-one-million-users/ (검색일 : 2024-04-20)에서 재인용)
 ### 1.2. 연구 문제
 - 활동이론으로 분석한 ChatGTP의 교육적 활용에 관한 국내 연구 동향은 어떠한가?
-- 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 교육 목표와 방향에 관한 시사점은 무엇인가?
+- 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 교육의 목표와 방향에 관한 시사점은 무엇인가?
 ## 2. 이론적 배경
 ### 2.1. 인공지능 LLM과 ChatGPT
 ![](attachments/Pasted%20image%2020240420212805.png)
