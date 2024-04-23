@@ -82,8 +82,8 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 
 <grid darg="40 70" drop="10 10">
 
-$$ \begin{cases} -y\log{p} & \text{if }y = 1 \\ -y\log(1-p) & \text{if }y = 0 \end{cases} $$<br><br>
-$$= \{y\log{p} + (1-y) \log(1-p) \} $$
+$$ \begin{cases} -y\log{p} & \text{if }y = 1 \\ -(1-y)\log(1-p) & \text{if }y = 0 \end{cases} $$<br><br>
+$$= -\{y\log{p} + (1-y) \log(1-p) \} $$
 
 $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 
