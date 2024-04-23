@@ -16,9 +16,9 @@ css: css/style.css
 
 ---
 
-## 점진적 학습
+## 점진적 학습 <!-- element style="align-self:center" -->
 
-훈련한 기존 모델에 새로운 데이터를 추가하여 모델을 업데이트 하는 방법<br>대표적인 알고리즘 : 경사 하강법
+훈련한 기존 모델에 새로운 데이터를 추가하여 모델을 업데이트 하는 방법<br>대표적인 알고리즘 : 경사 하강법 <!-- element style="align-self:center" -->
 
 ![](https://velog.velcdn.com/images%2Fsset2323%2Fpost%2Fe7b4fe6c-1395-4ea8-88e0-3e7e598e5519%2Fimage.png)
 
