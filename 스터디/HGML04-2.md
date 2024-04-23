@@ -85,7 +85,7 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 $$ \begin{cases} -y\log{p} & \text{if }y = 1 \\ -y\log(1-p) & \text{if }y = 0 \end{cases} $$<br><br>
 $$= \{y\log{p} + (1-y) \log(1-p) \} $$
 
-$$ CE  = -\sum\{y\log{p} + (1-y) \log(1-p) \} $$
+$$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 
 ::: block
 ![|450](attachments/Pasted%20image%2020240423020546.png)
@@ -118,4 +118,30 @@ $$ CE  = -\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 ![|600](attachments/Pasted%20image%2020240423020016.png)
 
 ---
-## 에포크와 과대 적합
+
+<grid drag="100 20" drop="0 5">
+## 에포크와 과대적합
+</grid>
+
+<grid drag="46 60" drop="0 30">
+![](attachments/Pasted%20image%2020240423190955.png)
+</grid>
+
+
+
+<grid drag="46 5" drop="50 20">
+```
+import matplotlib.pyplot as plt
+
+plt.plot(train_score) 
+plt.plot(test_score) 
+plt.xlabel('epoch') 
+plt.ylabel('accuracy') 
+plt.show()
+```
+</grid>
+<grid drag="46 60" drop="50 30">
+![](attachments/Pasted%20image%2020240423191251.png)
+</grid>
+
+---
