@@ -118,19 +118,26 @@ $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 ![|600](attachments/Pasted%20image%2020240423020016.png)
 
 ---
-
-<grid drag="100 20" drop="0 5">
 ## 에포크와 과대적합
-</grid>
 
-<grid drag="46 60" drop="0 30">
-![](attachments/Pasted%20image%2020240423190955.png)
-</grid>
+![|650](attachments/Pasted%20image%2020240423190955.png)
 
 
+---
 
-<grid drag="46 5" drop="50 20">
+<grid drag="46 60" drop="0 25" >
+
 ```
+import numpy as np  
+sc= SGDClassifier(lass='log', random_state=42)
+
+train_score= []  
+test_score = 0  
+classes= np.unique(train_target)
+
+for in range(0, 300):  
+sc.partial_fit(train_scaled, train_target, classes=classes) train_score.append(sc.score(train_scaled, train_target)) test_score.append(sc.score(test_scaled, test_target))
+
 import matplotlib.pyplot as plt
 
 plt.plot(train_score) 
@@ -140,7 +147,8 @@ plt.ylabel('accuracy')
 plt.show()
 ```
 </grid>
-<grid drag="46 60" drop="50 30">
+
+<grid drag="46 60" drop="50 25" >
 ![](attachments/Pasted%20image%2020240423191251.png)
 </grid>
 
