@@ -6,11 +6,11 @@ width: 1200
 :::    카테고리
 
 <grid drag="100 50" drop="0 20">
-# 제목
+# <% tp.file.title %>
 </grid>
 <grid drag="100 5" drop="0 70" >
 
-{date}
+<% tp.date.now(format: string = "YYYY-MM-DD") %>
 <!-- element style="align-self:center"-->
 </grid>
 
