@@ -113,9 +113,45 @@ $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 하나의 샘플을 랜덤하게 골라 경사도를 계산하고 단계적으로 하강하는 것
 * 종류 : 확률적 경사 하강법, 미니배치 경사 하강법, 배치 경사 하강법
 * 에포크 : 훈련세트를 한번 모두 사용하는 과정
-* .fit()을 .partial_fit()으로 바꿈으로써 구현 가능
 
 ![|600](attachments/Pasted%20image%2020240423020016.png)
+
+---
+
+
+
+<grid drag="100 20" drop="0 20">
+## SDGClassfire
+</grid>
+
+<grid drag="46" drop="0 35" >
+```
+  from sklearn.linear_model import SGDClassifier
+
+sc = SGDClassifier(loss='log_loss', max_iter=10)
+sc.fit(train_scaled, train_target)
+
+print(sc.score(train_scaled, train_target))
+print(sc.score(test_scaled, test_target))
+```
+
+
+</grid>
+
+<grid drag="46" drop="50 30" >
+### partial_fit <!-- element style="margin-bottom:-2px" -->
+: 기존 훈련된 모델에 1에포크씩 추가로 더 훈련
+<!-- element style="margin-bottom:-2px" -->
+```
+sc.partial_fit(train_scaled, train_target)
+
+print(sc.score(train_scaled, train_target))
+print(sc.score(test_scaled, test_target))
+```
+</grid>
+::: block
+https://github.com/rickiepark/hg-mldl/blob/master/4-2.ipynb
+:::<!-- element style="margin-top:300px" -->
 
 ---
 ## 에포크와 과대적합
