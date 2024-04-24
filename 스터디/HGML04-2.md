@@ -14,10 +14,6 @@ css: css/style.css
 
 </grid>
 
-<!-- slide data-visibility="hidden" --> 
-Fake Meeting Somewhere 2022-08-25 ^context
-My Name ^author
-
 ---
 
 ## 점진적 학습 <!-- element style="align-self:center" -->
@@ -34,11 +30,12 @@ My Name ^author
 input = np.array([2, 4, 6, 8, 10, 12, 14])
 output = np.array([3, 5, 7, 9, 11, 13, 15])
 ```
+
 $MSE = \frac{1}{n}\sum \{y_i​−(ax_i​+b)\} ^2$
 $$\phantom{MSE} =  \frac{1}{7}[(3−(a×2+b))^2+(5−(a×4+b))^2+\cdots +$$
 $$\phantom{MSEME} + (13−(a×12+b))^2+(15−(a×14+b))^2]$$
 $$\phantom{MSE} = 80a^2+16ab−176a+b^2−18b+97$$
-<!-- element align="left"  -->
+<!-- element align="left" style="font-size:22.5px"-->
 ![|400](attachments\Pasted%20image%2020240422235053.png)
 </grid>
 

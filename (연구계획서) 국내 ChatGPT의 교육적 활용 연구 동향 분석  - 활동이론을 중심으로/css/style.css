@@ -1,0 +1,88 @@
+.reveal{
+	font-size:25px;
+	color:#555555;
+	margin: 0; /* 기본 마진 제거 */
+    height: 100vh; /* 뷰포트 높이의 100% 사용 */
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 수평 top 정렬 */
+    align-items: center; /* 수직 top 정렬 */
+}
+.reveal h1{
+	color:#555555;
+	text-transform: none !important;
+}
+.reveal h2{
+	color:#555555;
+	align-self: start;
+	text-transform: none !important;
+}
+.reveal h3{
+	color:#555555;
+	align-self: start;
+	text-transform: none !important;
+}
+.reveal h4{
+	color:#555555;
+	align-self: start;
+	text-transform: none !important;
+}
+.reveal h5{
+	color:#555555;
+	align-self: start;
+	text-transform: none !important;
+}
+.reveal h6{
+	color:#555555;
+	align-self: start;
+	text-transform: none !important;
+}
+.reveal ul{
+	align-self: start;
+}
+.reveal ol{
+	align-self: start;
+}
+.reveal ul li{
+	margin-bottom: 10px;
+}
+.reveal ol li{
+	margin-bottom: 10px;
+}
+.reveal p{
+	align-self: start;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+div.page-break:before {
+	content: counter(page);
+  }
+  
+  @media print {
+  
+	body {
+	  counter-reset: page;
+	}
+  
+	div.page-break {
+	  page-break-before: always;
+	  position: relative;
+	}
+  
+	div.page-break:after {
+	  counter-increment: page;
+	  content:"Page " counter(page);
+	  position: absolute;
+	  top: 10mm;
+	  right: 10mm;
+	}
+  }
+
+.src{
+	align-self: center !important;
+	text-align: center !important;
+	max-width: 960px;
+	color:gray;
+	font-size:20px;
+	width: 100%; 
+}
