@@ -30,7 +30,7 @@ margin: 0.2
 ---
 
 ![|700](attachments/Pasted%20image%2020240420214633.png)
-Katharina Buchholz(2023). Threads Shoots Past One Million User Mark at Lightning Speed. <br>Statista. https://www.statista.com/chart/29174/time-to-one-million-users/ , notta.ai에서 재인용
+Katharina Buchholz(2023). Threads Shoots Past One Million User Mark at Lightning Speed. Statista. https://www.statista.com/chart/29174/time-to-one-million-users/
 <!-- element class="src" -->
 
 ---

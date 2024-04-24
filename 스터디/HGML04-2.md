@@ -62,9 +62,8 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 
 ---
 ## 손실 함수 (Loss) : 내려가야할 산
-회귀함수와 원래 값의 차이를 계산하는 함수 <br>예 : MSE (Mean Squared Error), 크로스 엔트로피(Cross-Entropy), 힌지(hinge) 
+회귀함수와 원래 값의 차이를 계산하는 함수 <br> 연속이고 미분가능해야함<br>예 : MSE (Mean Squared Error), 크로스 엔트로피(Cross-Entropy), 힌지(hinge) 
 
-::: block
 <split even gap="5">
 
 ![|250](attachments/Pasted%20image%2020240423010546.png)
@@ -72,6 +71,9 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 ![|250](attachments/Pasted%20image%2020240423010325.png)
 
 </split>
+
+::: block
+source : https://towardsdatascience.com/animations-of-logistic-regression-with-python-31f8c9cb420<!-- element class="src" -->
 :::
 
 ---
@@ -118,10 +120,8 @@ $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 
 ---
 
-
-
 <grid drag="100 20" drop="0 20">
-## SDGClassfire
+## SDGClassfier
 </grid>
 
 <grid drag="46" drop="0 35" >
@@ -150,11 +150,11 @@ print(sc.score(test_scaled, test_target))
 ```
 </grid>
 ::: block
-https://github.com/rickiepark/hg-mldl/blob/master/4-2.ipynb
+https://bit.ly/hgml402
 :::<!-- element style="margin-top:300px" -->
 
 ---
-## 에포크와 과대적합
+## 에포크와 과대적합<!-- element style="align-self:center" -->
 
 ![|650](attachments/Pasted%20image%2020240423190955.png)
 
@@ -172,7 +172,9 @@ test_score = 0
 classes= np.unique(train_target)
 
 for in range(0, 300):  
-sc.partial_fit(train_scaled, train_target, classes=classes) train_score.append(sc.score(train_scaled, train_target)) test_score.append(sc.score(test_scaled, test_target))
+sc.partial_fit(train_scaled, train_target, classes=classes) 
+train_score.append(sc.score(train_scaled, train_target)) 
+test_score.append(sc.score(test_scaled, test_target))
 
 import matplotlib.pyplot as plt
 
@@ -189,3 +191,24 @@ plt.show()
 </grid>
 
 ---
+
+## hinge 와 SVM(Support Vector Machine) <!-- element style="align-self:center" -->
+
+<split even gap="3">
+
+![|250](attachments/svm.png) 
+![|250](attachments/hinge.png) 
+![|250](attachments/hingewsvm.png) 
+</split>
+
+---
+## loss 함수의 다른 옵션들
+1. **`hinge`** - 표준 SVM 마진 손실. 데이터 포인트가 올바르게 분류되고 마진보다 멀리 떨어져 있으면 0의 손실을 가집니다.
+2. **`log`** - 로지스틱 회귀에 사용되는 로그 손실(로그 리그레션). 확률적으로 결과를 예측하는데 사용됩니다.
+3. **`modified_huber`** - 로버스트한 휴버 손실의 변형으로, 이상치에 덜 민감하고 0과 1 사이의 확률 예측을 제공합니다.
+4. **`squared_hinge`** - `hinge` 손실의 제곱 버전으로, 잘못 분류된 예시에 대해 보다 강한 패널티를 부과합니다.
+5. **`perceptron`** - 퍼셉트론 알고리즘에 기반한 손실 함수. 올바르게 분류된 예시에 대해서는 손실이 없고, 잘못 분류된 예시에 대해서는 고정된 패널티를 부과합니다.
+6. **`squared_loss`** - 최소 제곱 오차 손실. 회귀 문제에 주로 사용됩니다.
+7. **`huber`** - 휴버 손실은 회귀 문제에 주로 사용되며, 예측 오차가 작을 때는 제곱 오차 손실을, 큰 오차에 대해서는 선형 손실을 적용합니다.
+8. **`epsilon_insensitive`** - 선형 서포트 벡터 회귀에 사용되는 손실 함수입니다. 예측값과 실제값의 차이가 특정 마진(epsilon) 내에 있으면 손실이 0입니다.
+9. **`squared_epsilon_insensitive`** - `epsilon_insensitive`의 제곱 버전으로, 보다 강한 패널티를 부과합니다.
