@@ -24,7 +24,6 @@ css: css/style.css
 
 
 
----
 
 <grid drag="50" drop="0 0">
 #### 경사하강법을 이용한 학습 예시
