@@ -14,6 +14,10 @@ css: css/style.css
 
 </grid>
 
+<!-- slide data-visibility="hidden" --> 
+Fake Meeting Somewhere 2022-08-25 ^context
+My Name ^author
+
 ---
 
 ## 점진적 학습 <!-- element style="align-self:center" -->
@@ -22,8 +26,7 @@ css: css/style.css
 
 ![](https://velog.velcdn.com/images%2Fsset2323%2Fpost%2Fe7b4fe6c-1395-4ea8-88e0-3e7e598e5519%2Fimage.png)
 
-
-
+---
 
 <grid drag="50" drop="0 0">
 #### 경사하강법을 이용한 학습 예시
