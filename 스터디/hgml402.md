@@ -6,7 +6,7 @@ height: 848.66
 ---
 <grid drag="100 3" drop="0 5" bg="#555555">
 혼자 공부하는 머신러닝
-<!-- element style="font-size:13px;color:white;"pad="10px" -->
+<!-- element style="font-size:13pt;color:white;"pad="10px" -->
 </grid>
 
 <grid drag="100 50" drop="0 20">
@@ -39,7 +39,7 @@ $MSE = \frac{1}{n}\sum \{y_i​−(ax_i​+b)\} ^2$
 $$\phantom{MSE} =  \frac{1}{7}[(3−(a×2+b))^2+(5−(a×4+b))^2+\cdots +$$
 $$\phantom{MSEME} + (13−(a×12+b))^2+(15−(a×14+b))^2]$$
 $$\phantom{MSE} = 80a^2+16ab−176a+b^2−18b+97$$
-<!-- element align="left" style="font-size:20px"-->
+<!-- element align="left" style="font-size:22.3px"-->
 ![|400](attachments\Pasted%20image%2020240422235053.png)
 </grid>
 

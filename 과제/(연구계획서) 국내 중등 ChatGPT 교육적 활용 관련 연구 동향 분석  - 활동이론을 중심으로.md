@@ -6,7 +6,7 @@ margin: 0.2
 
 <grid drag="100 3" drop="0 5" bg="#555555">
 연구계획서
-<!-- element style="font-size:13px;color:white;"pad="10px" -->
+<!-- element style="font-size:10pt;color:white;"pad="10px" -->
 </grid>
 
 <grid drag="100 50" drop="0 20">
@@ -25,28 +25,37 @@ margin: 0.2
 
 ---
 
-## 1. 서론
 
+
+<grid drag="100 20" drop="0 5">
+## 서론
 ### 1.1. 연구의 필요성
-#### 1.1.1. 생성형 AI시대와 ChatGPT
+</grid>
 
----
+<grid drag="46" drop="0 25" >
+### 생성형 AI시대와 ChatGPT
+* 
+* 
+</grid>
 
-![|700](attachments/Pasted%20image%2020240420214633.png)
-Katharina Buchholz(2023). Threads Shoots Past One Million User Mark at Lightning Speed. Statista. https://www.statista.com/chart/29174/time-to-one-million-users/
-<!-- element class="src" -->
+
+<grid drag="46" drop="50 20" >
+![](atts/Pasted%20image%2020240420214633.png)
+</grid>
+
 
 ---
 <!-- slide bg="#000000" -->
-![|750](attachments/Pasted%20image%2020240421085727.png)
+![|750](atts/Pasted%20image%2020240421085727.png)
 
 ---
 <!-- slide bg="#000000" -->
-![|](attachments/Pasted%20image%2020240421090039.png) 
+![|](atts/Pasted%20image%2020240421090039.png) 
 
 ---
+
 <grid drag="100" drop="0 15">
-#### 1.1.2. ChatGPT 활용 교육에 대한 관심 대두 
+#### 1.1.2. 중등교원의 ChatGPT 활용 교육에 대한 관심 대두 
 </grid>
 
 <grid drag="50" drop="0 27">
@@ -58,7 +67,7 @@ Katharina Buchholz(2023). Threads Shoots Past One Million User Mark at Lightning
  
  <grid drop="50 0">
  
-![|500](attachments/Pasted image 20240421083755.png)
+![|500](atts/Pasted image 20240421083755.png)
 
 서울시교육청(2023). 챗GPT관련 교원 인식 설문조사. <br>서울교육포럼 :챗GPT시대, 현장교사에게 묻다 자료집
 <!-- element class="src" style="font-size:15px"-->
@@ -68,24 +77,45 @@ Katharina Buchholz(2023). Threads Shoots Past One Million User Mark at Lightning
 
 * ChatGPT교육 연수 참여 희망 여부를 묻는 조사에서 88.7%의 교원이 '예'로 응답하였으며 <br>희망 주제에 관한 자유응답에서 '활용'과 '방법'이 가장 많은 빈도로 나타남. <span class="src">(강혜경 외, 2023)</span>
 
-![](attachments/Pasted%20image%2020240421092001.png)
+![](atts/Pasted%20image%2020240421092001.png)
 
 ---
 ### 1.2. 연구 문제
-- 활동이론으로 분석한 ChatGTP의 교육적 활용에 관한 국내 연구 동향은 어떠한가?  <!-- element style="font-size:32px" pad="20px"-->
-- 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 교육에 관한 시사점은 무엇인가? <!-- element style="font-size:32px" pad="20px"-->
+1.  활동이론으로 분석한 ChatGTP 중등 교육적 활용에 관한 국내 연구 동향은 어떠한가?  <!-- element style="font-size:32px"-->
+2. ChatGPT 교육적 활용 관련 <!-- element style="font-size:32px"-->
+3. 연구 동향 분석을 통해 도출할 수 있는 중등 ChatGPT 활용 교육에 관한 시사점은 무엇인가? <!-- element style="font-size:32px" -->
 
 ---
 ## 2. 이론적 배경
 ### 2.1. 인공지능 LLM과 ChatGPT
-![](attachments/Pasted%20image%2020240420212805.png)
+![](atts/Pasted%20image%2020240420212805.png)
 출처 : OpenAI blog https://openai.com/blog
-### 2.2. ChatGPT의 교육적 활용
+
+---
+
+### 2.2. ChatGPT의 교육적 활용 관련 선행연구
 #### 2.2.1. 연구 동향을 분석한 선행 연구
-#### 2.2.2. 교육분야에서의 주요 기능을 분석한 선행 연구
+#### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구
+
+---
+
 ### 2.3. 활동이론
 #### 2.2.1. 활동이론의 개념
 #### 2.2.2. 분석의 틀로 사용한 연구 동향
+
+---
+
 ## 3. 연구 방법
-### 3.1. 자료수집
-### 3.2. 자료분석
+### 3.1. 분석대상 및 자료수집
+* 분석 대상 : 
+* 자료수집 : 
+* PRISMA 절차에 따른 선별
+
+---
+
+### 3.2. 분석방법
+#### 3.2.1. 체계적 문헌분석
+#### 3.2.2. 데이터 전처리
+#### 3.2.3.텍스트마이닝 기법
+
+---
