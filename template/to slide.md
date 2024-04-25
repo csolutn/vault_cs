@@ -3,7 +3,9 @@ css: css/style.css
 margin: 0.2
 width: 1200
 ---
-:::    카테고리
+<grid drag="100 3" drop="0 5" bg="#555555">
+카테고리<!-- element style="font-size:13px;color:white;"pad="10px" -->
+</grid>
 
 <grid drag="100 50" drop="0 20">
 # <% tp.file.title %>

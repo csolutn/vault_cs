@@ -4,7 +4,10 @@ width: 1200
 margin: 0.2
 ---
 
-:::    연구계획서
+<grid drag="100 3" drop="0 5" bg="#555555">
+연구계획서
+<!-- element style="font-size:13px;color:white;"pad="10px" -->
+</grid>
 
 <grid drag="100 50" drop="0 20">
 

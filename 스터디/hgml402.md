@@ -2,8 +2,12 @@
 margin: 0.2
 width: 1200
 css: css/style.css
+height: 848.66
 ---
-:::    혼자 공부하는 머신러닝
+<grid drag="100 3" drop="0 5" bg="#555555">
+혼자 공부하는 머신러닝
+<!-- element style="font-size:13px;color:white;"pad="10px" -->
+</grid>
 
 <grid drag="100 50" drop="0 20">
 # 확률적 경사하강법
@@ -35,7 +39,7 @@ $MSE = \frac{1}{n}\sum \{y_i​−(ax_i​+b)\} ^2$
 $$\phantom{MSE} =  \frac{1}{7}[(3−(a×2+b))^2+(5−(a×4+b))^2+\cdots +$$
 $$\phantom{MSEME} + (13−(a×12+b))^2+(15−(a×14+b))^2]$$
 $$\phantom{MSE} = 80a^2+16ab−176a+b^2−18b+97$$
-<!-- element align="left" style="font-size:22.5px"-->
+<!-- element align="left" style="font-size:20px"-->
 ![|400](attachments\Pasted%20image%2020240422235053.png)
 </grid>
 
@@ -66,40 +70,30 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 회귀함수와 원래 값의 차이를 계산하는 함수 <br> 연속이고 미분가능해야함<br>예 : MSE (Mean Squared Error), 크로스 엔트로피(Cross-Entropy), 힌지(hinge) 
 
 <split even gap="5">
-
 ![|250](attachments/Pasted%20image%2020240423010546.png)
 
 ![|250](attachments/Pasted%20image%2020240423010325.png)
-
 </split>
 
-::: block
+
 source : https://towardsdatascience.com/animations-of-logistic-regression-with-python-31f8c9cb420<!-- element class="src" -->
-:::
 
 ---
 
-<grid drag="100 100" drop="5 -40">
+<grid drag="100 20" drop="0 5">
 ## 이진 크로스 엔트로피 (Binary Cross Entropy)
 </grid>
 
-<grid darg="40 70" drop="10 10">
-
+<grid drag="46" drop="0 20" >
 $$ \begin{cases} -\log{p} & \text{if }y = 1 \\ -\log(1-p) & \text{if }y = 0 \end{cases} $$<br><br>
 $$= -\{y\log{p} + (1-y) \log(1-p) \} $$
 
 $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 
-::: block
-![|450](attachments/Pasted%20image%2020240423020546.png)
-::: <!-- element style="align-self:start" -->
+![|450](attachments/Pasted%20image%2020240423020546.png) <!-- element style="align-self:start" -->
+</grid>
 
-</drag>
-
-<grid drag="80 70" drop="90 10" >
-
-#### 이진 크로스 엔트로피와 시그모이드 사이의 관계
-
+<grid drag="46" drop="50 20" >
 **[Remind]** Linear Regression - MSE
 <br>$MSE_a = (-1)\times \rm{mean}(error \times input)$
 <br>$MSE_b = (-1)\times \rm{mean}(error) $
@@ -112,6 +106,7 @@ $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 </grid>
 
 ---
+
 ## 확률적 경사하강법
 하나의 샘플을 랜덤하게 골라 경사도를 계산하고 단계적으로 하강하는 것
 * 종류 : 확률적 경사 하강법, 미니배치 경사 하강법, 배치 경사 하강법
