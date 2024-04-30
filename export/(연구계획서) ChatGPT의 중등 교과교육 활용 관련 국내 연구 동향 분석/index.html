@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="has-dark-background" style="background-color: #555555; position: absolute; left: 0%; top: 5%; height: 3%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+연구계획서
+<!-- .element: style="font-size: 10pt; color: white; padding: 10px; box-sizing: border-box" -->
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 20%; height: 50%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+# ChatGPT의 중등 교과교육 활용 관련<br>국내 연구 동향 분석
+
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 40%; height: 95%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+한국교원대학교 컴퓨터교육학과 <br>석사과정 정솔
+<!-- .element: style="text-align: center; align-self: center" -->
+
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 목  차 <!-- .element: style="margin-top: -500px; margin-left: -400px" -->
+
+<div class="" style="position: absolute; left: 40%; top: 0%; height: 100%; width: 60%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+- [1. 서론](#1-)
+  - [1.1. 연구의 필요성](#11--)
+    - [1.1.1. 생성형 AI시대와 ChatGPT](#111--ai-chatgpt)
+    - [1.1.2. 중등교원의 ChatGPT 활용 교육에 대한 관심 대두](#112--chatgpt-----)
+  - [1.2. 연구 문제](#12--)
+- [2. 이론적 배경](#2--)
+  - [2.1. 생성형 자연어 처리 AI와  ChatGPT](#21----ai--chatgpt)
+  - [2.2. ChatGPT의 교육적 활용 관련 선행연구](#22-chatgpt----)
+    - [2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행연구](#221-chatgpt------)
+    - [2.2.2. 교육분야에서 주요 기능을 분석한 선행연구](#222------)
+- [3. 연구 방법](#3--)
+  - [3.1. 분석대상 및 자료수집](#31---)
+  - [3.2. 자료분석](#32-)
+    - [3.2.1. 활동체제모형 기반 체계적 문헌분석](#321----)
+    - [3.2.2. 텍스트마이닝](#322-)
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 5%; height: 20%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+## 1. 서론
+### 1.1. 연구의 필요성
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 25%; height: undefined%; width: 42%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+#### 1.1.1. 생성형 AI시대와 ChatGPT
+* 2022년 11월 30일 OpenAI사에서 발표한 ChatGPT는 사용자가 두 달만에 약 1억명을 <br>돌파하며 급속한 파급력을 보임 <br><span class="src"> (Krystal Hu, 2022)</span>
+* ChatGPT 발표 이후 생성형 AI기술이 과거의 어떤 신기술 보다 급속한 파급력을 보이며 산업 전반에서 생성형 AI의 활용 가능성을 모색하는 논의가 뜨겁게 이어지고 있음 <br><span class="src"> (Niccolo Conte, 2024)</span>
+</div>
+
+
+<div class="" style="position: absolute; left: 50%; top: 20%; height: undefined%; width: 46%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<img src="atts/Pasted%20image%2020240420214633.png" alt="" style="object-fit: scale-down">
+
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="rgb(14,25,37)" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 10%; top: 5%; height: 100%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<img src="atts/Pasted%20image%2020240421085727.png" alt="|500" style="width: 500px; object-fit: fill">
+
+</div>
+
+<div class="" style="position: absolute; left: 50%; top: 5%; height: 100%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<img src="atts/Pasted%20image%2020240421090039.png" alt="|240" style="width: 240px; object-fit: fill">
+
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 15%; height: undefined%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+#### 1.1.2. 중등교원의 ChatGPT 활용 교육에 대한 관심 대두 
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 27%; height: undefined%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+* 국내 ChatGPT 인식 및 이용률 조사 결과 20-50대 성인의 54.5%가 실제 사용 경험이 있음 <span class="src"><br>(한국저작권위원회, 2023)</span>
+ * 특히 교원의 경우 사용경험여부가 70%에 이르며 사회의 평균보다 높은 관심을 보임 <span class="src"><br>(서울특별시교육청, 2023)</span> 
+ * 90%의 교사는 챗GPT가 교사역할에 도움이 된다고 생각하였으며 활용되기 원하는 분야에 대한 중복 조사 결과 교수-학습활동이라고 답한 비율이 80.3%였음 <span class="src"><br>(서울특별시교육청, 2023)</span>
+ </div>
+ 
+ <div class="" style="position: absolute; left: 50%; top: -6%; height: 100%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+ 
+<img src="atts/Pasted image 20240421083755.png" alt="|500" style="width: 500px; object-fit: fill">
+
+<div class="src"> 서울시교육청(2023). 챗GPT관련 교원 인식 설문조사. <br>서울교육포럼 :챗GPT시대, 현장교사에게 묻다 자료집</src>
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+* ChatGPT교육 연수 참여 희망 여부를 묻는 조사에서 88.7%의 교원이 '예'로 응답하였으며 <br>희망 주제에 관한 자유응답에서 '활용'과 '방법'이 가장 많은 빈도로 나타남. <!-- .element: style="margin-left: 50pt" --> <span class="src">(강혜경 외, 2023)</span>
+
+<img src="atts/Pasted%20image%2020240421092001.png" alt="" style="object-fit: scale-down">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 1.2. 연구 문제
+1.  ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 연구 동향은 어떠한가?  <!-- .element: style="font-size: 30px" -->
+2. ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 주요 키워드와 연구주제는 무엇인가?<!-- .element: style="font-size: 30px" -->
+3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT의 중등 교과교육 활용에 관한 시사점은 무엇인가? <!-- .element: style="font-size: 30px" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 5%; height: 20%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+## 2. 이론적 배경
+</div>
+
+<div class="" style="position: absolute; left: 0%; top: 20%; height: undefined%; width: 46%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+### 2.1. 생성형 자연어 처리 AI와  ChatGPT
+* 생성형 자연어 처리 인공지능 모델 : 입력한 데이터를 이용하여 텍스트를 생성하는 기술
+* 텍스트 학습시 전처리(토큰화, 임베딩) 후 딥러닝 기반 자연어 처리 모델인 트랜스포머<span class="src">(transformer)</span>를 통해 인코딩(상호 관계 학습)과 디코딩(생성)
+* GPT<span class="src">(Generative pre-trained transformer)</span> : 트랜스포머를 활용하는 대규모 언어 생성 모델 중 하나로서 확률을 기반으로 텍스트를 생성할 수 있도록 사전 학습된 생성형 AI
+* ChatGPT : GPT를 기반으로 인간과 상호작용을 할 수 있는 프롬프터를 제공하는 응용프로그램
+</div>
+
+<div class="" style="position: absolute; left: 50%; top: 20%; height: undefined%; width: 46%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<img src="atts/Pasted%20image%2020240420212805.png" alt="" style="object-fit: scale-down">
+
+
+<div class="src">OpenAI blog https://openai.com/blog </div>
+
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 2.2. ChatGPT의 교육적 활용 관련 선행연구
+
+* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며  'AI에 대한 교육'과 <br>'AI를 활용한 교육'로 나뉘어 제시<span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
+
+* ChatGPT의 교육적 활용 관련 주요 연구주제
+
+	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<br><span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
+	* 교수`$\cdot$`학습 상황에서 ChatGPT의 활용 방안 <br><span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
+	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<br><span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
+	* ChatGPT 활용시 제기되는 우려사항 및 제한점<br><span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+#### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
+
+*  최나래. 김미량(2023)
+	* 2022.12. - 2023.07.에 발행된 39편의 국내 학술논문 대상<!-- .element: style="margin-top: -10px" -->
+	- 핵심 키워드와 연구 동향 파악
+ 
+* 장혜지. 소효정(2023)
+	* 2022.12. - 2023.05.에 발행된 72편의 관련 문헌 대상 (국내: 14, 국외: 58)<!-- .element: style="margin-top: -10px" -->
+	- 체계적 문헌분석 (발표 시기, 연구유형, 대상 학교급, 연구 분야) 
+	- 텍스트 마이닝 기법을 활용한 토픽 분석 실시
+
+* Fütterer et al.(2023) 
+	* ChatGPT 출시(2022.11.30)이후 2달 간의 트위터 데이터* 대상<!-- .element: style="margin-top: -10px" --><br> <span class="src">(*5,541,457명의 사용자로부터 16,830,997건의 트윗)</span>
+	* 토픽 모델링과 감성분석을 기반으로 교육 분야에서의 ChatGPT에 대한 전 세계의 인식과 반응 분석
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 85%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+#### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구 
+* M. Javaid, A. Haleem, R.P. Singh et al.  (2023)
+	* ChatGPT의 교육적 활용의 필요성 분석<!-- .element: style="margin-top: 10px" -->
+	* ChatGPT의 주요 기능과 주요 적용 사례 제시
+	* 주요 기능 <br><span class="sml">대규모 데이터 처리,  협력적 예측,  실습 세션,  실시간 교육<br> 지원,  사례 연구 기반 교육, 가상 보조,  후속 조치,  작업 기억, <br> 상호작용 교수 학습,  기록 백업</span>
+	* 주요 적용 사례<br><span class="sml">비판적 사고와 소통 능력 향상, 학습 자료 생성, 학생의 대화상대, 읽기 및 이해 능력 향상, 가상 교육 어시스턴트, 질문 능력 향상, 복합 문제 이해, 직접적 질의 응답, 브레인스토밍, 맞춤형 학습, 텍스트 분석, 에세이 작성, 학습 환경 향상, 언어 이해, 시험 준비 촉진, 정보 검색, 교수 설계 보조, 연구 도구, 문서 요약, 학업 능력 평가, 자동 채점, E-Learning, 상호작용 경험, 온라인 학습 지원, 지식 향상</span>
+</div>
+
+<div class="" style="position: absolute; left: 50%; top: 22%; height: 40%; width: 46%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+<img src="atts/Pasted%20image%2020240430141458.png" alt="" style="object-fit: scale-down">
+
+</div>
+
+
+<div class="src">Javaid et al. (2023). Unlocking the opportunities through ChatGPT Tool towards ameliorating <br>the education system. BenchCouncil Transactions on Benchmarks, Standards and Evaluations, 3(2). </div>
+<!-- .element: style="margin-top: 55%" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## 3. 연구 방법
+### 3.1. 분석대상 및 자료수집
+* 분석 대상 
+* 자료 수집
+* PRISMA 절차에 따른 선별
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 3.2. 자료분석
+
+#### 3.2.1. 활동체제모형 기반 체계적 문헌분석
+#### 3.2.2. 텍스트마이닝
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1200,"height":700,"margin":0.2,"controls":false,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
