@@ -80,8 +80,8 @@ margin: 0.2
 ---
 ### 1.2. 연구 문제
 1.  활동이론으로 분석한 ChatGTP의 중등 교과교육 활용 관련 국내 문헌의 연구 동향은 어떠한가?  <!-- element style="font-size:30px"-->
-2. ChatGPT의 중등 교육 활용 관련 국내 문헌에서 주요하게 언급된 키워드는 무엇인가?<!-- element style="font-size:30px"-->
-3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 중등 교육에 관한 주요 연구주제와 <br>시사점은 무엇인가? <!-- element style="font-size:30px" -->
+2. ChatGPT 활용 중등 교과교육 관련 국내 문헌의 주요 키워드와 연구주제는 무엇인가?<!-- element style="font-size:30px"-->
+3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 중등 교과교육에 관한 시사점은 무엇인가? <!-- element style="font-size:30px" -->
 
 ---
 
@@ -110,11 +110,27 @@ margin: 0.2
 ---
 
 ### 2.2. ChatGPT의 교육적 활용 관련 선행연구
-* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
-* 교과교육에의 활용 이외의 ChatGPT의 교육적 활용 관련 주요 연구주제로는 '각 교과의 문제해결에서 ChatGPT의 성능 평가'<span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>와 'ChatGPT가 튜터 및  평가자(피드백 제공자)의 역할을 수행하도록 활용'<span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>하는 연구 및 'ChatGPT 활용시 제기되는 우려사항 및 제한점'<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span> 등이 있음. 
+<div class="full">
+
+* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 'AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
+
+* ChatGPT의 교육적 활용 관련 주요 연구주제
+	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
+	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023;)</span>
+	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
+	* ChatGPT 활용시 제기되는 우려사항 및 제한점<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span> 
+</div>
 
 ---
-#### 2.2.1. 연구 동향을 분석한 선행 연구
+#### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
+<div class="full">
+
+*  최나래. 김미량(2023)
+
+* 장혜지. 소효정(2023)
+
+* Tim Fütterer et al.(2023)
+</div>
 
 ---
 #### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구
@@ -129,9 +145,9 @@ margin: 0.2
 
 ## 3. 연구 방법
 ### 3.1. 분석대상 및 자료수집
-* 분석 대상 : 
-* 자료 수집 : 
-* PRISMA 절차에 따른 선별 : 
+* 분석 대상 
+* 자료 수집
+* PRISMA 절차에 따른 선별 
 
 ---
 
@@ -140,5 +156,7 @@ margin: 0.2
 #### 3.2.1. 체계적 문헌분석
 #### 3.2.2. 데이터 전처리
 #### 3.2.3.텍스트마이닝 기법
+
+---
 
 
