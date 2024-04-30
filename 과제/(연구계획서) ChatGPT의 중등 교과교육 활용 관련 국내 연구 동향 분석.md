@@ -157,7 +157,7 @@ margin: 0.2
 
 
 <div class="src">Javaid et al. (2023). Unlocking the opportunities through ChatGPT Tool towards ameliorating <br>the education system. BenchCouncil Transactions on Benchmarks, Standards and Evaluations, 3(2). </div>
-<!-- element style="margin-top:50%" -->
+<!-- element style="margin-top:55%" -->
 
 ---
 
@@ -173,13 +173,4 @@ margin: 0.2
 
 #### 3.2.1. 활동체제모형 기반 체계적 문헌분석
 #### 3.2.2. 텍스트마이닝
-
----
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
