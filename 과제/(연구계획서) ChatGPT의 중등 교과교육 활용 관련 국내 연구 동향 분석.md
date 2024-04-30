@@ -11,7 +11,7 @@ margin: 0.2
 
 <grid drag="100 50" drop="0 20">
 
-# ChatGPT의 중등 교과교육 활용 관련 <br>국내 연구 동향 분석 :  활동이론을 중심으로
+# ChatGPT의 중등 교과교육 활용 관련<br>국내 연구 동향 분석
 
 </grid>
 
@@ -46,11 +46,14 @@ margin: 0.2
 
 ---
 <!-- slide bg="#000000" -->
-![|750](atts/Pasted%20image%2020240421085727.png)
 
----
-<!-- slide bg="#000000" -->
-![|](atts/Pasted%20image%2020240421090039.png) 
+<grid drag="50 100" drop="10 5">
+![|500](atts/Pasted%20image%2020240421085727.png)
+</grid>
+
+<grid drag="50 100" drop="50 5" >
+![|240](atts/Pasted%20image%2020240421090039.png) 
+</grid>
 
 ---
 
@@ -81,7 +84,7 @@ margin: 0.2
 ### 1.2. 연구 문제
 1.  ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 연구 동향은 어떠한가?  <!-- element style="font-size:30px"-->
 2. ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 주요 키워드와 연구주제는 무엇인가?<!-- element style="font-size:30px"-->
-3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT의 중등 교과교육 활용 관한 시사점은 무엇인가? <!-- element style="font-size:30px" -->
+3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT의 중등 교과교육 활용에 관한 시사점은 무엇인가? <!-- element style="font-size:30px" -->
 
 ---
 
@@ -111,12 +114,12 @@ margin: 0.2
 
 ### 2.2. ChatGPT의 교육적 활용 관련 선행연구
 
-* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 <br> 'AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
+* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며  'AI에 대한 교육'과 <br>'AI를 활용한 교육'로 나뉘어 제시<span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
 
 * ChatGPT의 교육적 활용 관련 주요 연구주제
 
 	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<br><span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
-	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<br><span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
+	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안 <br><span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
 	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<br><span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
 	* ChatGPT 활용시 제기되는 우려사항 및 제한점<br><span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span>
 
@@ -158,12 +161,6 @@ margin: 0.2
 
 ---
 
-### 2.3. 활동이론
-#### 2.2.1. 활동이론의 개념
-#### 2.2.2. 분석의 틀로 사용한 연구 동향
-
----
-
 ## 3. 연구 방법
 ### 3.1. 분석대상 및 자료수집
 * 분석 대상 
@@ -172,9 +169,9 @@ margin: 0.2
 
 ---
 
-### 3.2. 분석방법
+### 3.2. 자료분석
 
-#### 3.2.1. 체계적 문헌분석
+#### 3.2.1. 활동체제모형 기반 체계적 문헌분석
 #### 3.2.2. 텍스트마이닝
 
 ---
