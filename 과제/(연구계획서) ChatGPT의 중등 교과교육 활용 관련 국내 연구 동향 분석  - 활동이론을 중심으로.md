@@ -115,22 +115,22 @@ margin: 0.2
 * 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 'AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
 
 * ChatGPT의 교육적 활용 관련 주요 연구주제
+
 	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
 	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
 	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
-	* ChatGPT 활용시 제기되는 우려사항 및 제한점<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span> 
+	* ChatGPT 활용시 제기되는 우려사항 및 제한점<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span>
+
 </div>
 
 ---
 #### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
-<div class="full">
 
-*  최나래. 김미량(2023) 
+*  최나래. 김미량(2023) <br> : 2022.12. - 2023.07.에 발행된 39편의 국내 학술논문 대상<br>핵심 키워드와 연구 동향 파악
  
-* 장혜지. 소효정(2023) 
+* 장혜지. 소효정(2023) <br> : 2022.12. - 2023.05.에 발행된 72편의 관련 문헌 대상 (국내: 14, 국외: 58)<br>체계적 문헌분석 (발표 시기, 연구유형, 대상 학교급, 연구 분야) <br> 텍스트 마이닝 기법을 활용한 토픽 분석 실시
 
-* Fütterer et al.(2023) 
-</div>
+* Fütterer et al.(2023)<br> : ChatGPT 출시(2022.11.30)이후 2달 간의 트위터 데이터* 대상<br> <span class="src">(*5,541,457명의 사용자로부터 16,830,997건의 트윗)</span> <br> 토픽 모델링과 감성분석을 기반으로 교육 분야에서의 ChatGPT에 대한<br> 전 세계의 인식과 반응 분석
 
 ---
 #### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구
