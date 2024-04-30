@@ -116,7 +116,7 @@ margin: 0.2
 
 * ChatGPT의 교육적 활용 관련 주요 연구주제
 	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
-	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023;)</span>
+	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
 	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
 	* ChatGPT 활용시 제기되는 우려사항 및 제한점<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span> 
 </div>
@@ -125,11 +125,11 @@ margin: 0.2
 #### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
 <div class="full">
 
-*  최나래. 김미량(2023)
+*  최나래. 김미량(2023) 
+ 
+* 장혜지. 소효정(2023) 
 
-* 장혜지. 소효정(2023)
-
-* Tim Fütterer et al.(2023)
+* Fütterer et al.(2023) 
 </div>
 
 ---
@@ -158,5 +158,11 @@ margin: 0.2
 #### 3.2.3.텍스트마이닝 기법
 
 ---
-
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
