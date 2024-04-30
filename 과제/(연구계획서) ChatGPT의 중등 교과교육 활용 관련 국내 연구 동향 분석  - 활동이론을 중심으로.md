@@ -141,22 +141,21 @@ margin: 0.2
 
 ---
 
-<grid drag="46 100" drop="0 0">
+<grid drag="85 100" drop="0 0">
 #### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구 
-* Javaid et al. (2023)
-	* ChatGPT의 교육적 활용의 필요성 분석<!-- element style="margin-top:10px" -->
-	* 교육시스템에서 ChatGPT의 10개의 주요기능과 22개의 주요 적용 사례 제시
-	* 주요 기능 : 
-	* 적용 사례 : 
+* M. Javaid, A. Haleem, R.P. Singh et al.  (2023)
+	* ChatGPT의 교육적 활용의 필요성 분석과 함께<!-- element style="margin-top:10px" --><br>ChatGPT의 주요기능과 주요 적용 사례 제시
+	* 주요 기능 <br><span class="sml">대규모 데이터 처리,  협력적 예측,  실습 세션,  실시간 교육<br> 지원,  사례 연구 기반 교육, 가상 보조,  후속 조치,  작업 기억, <br> 상호작용 교수 학습,  기록 백업</span>
+	* 적용 사례 유형<br><span class="sml">비판적 사고와 소통 능력 향상, 학습 자료 생성, 학생의 대화상대, 읽기 및 이해 능력 향상, 가상 교육 어시스턴트, 질문 능력 향상, 복합 문제 이해, 직접적 질의 응답, 브레인스토밍, 맞춤형 학습, 텍스트 분석, 에세이 작성, 학습 환경 향상, 언어 이해, 시험 준비 촉진, 정보 검색, 교수 설계 보조, 연구 도구, 문서 요약, 학업 능력 평가, 자동 채점, E-Learning, 상호작용 경험, 온라인 학습 지원, 지식 향상</span>
 </grid>
 
-<grid drag="46 100" drop="50 0" >
+<grid drag="46 40" drop="50 22" >
 ![](atts/Pasted%20image%2020240430141458.png)
 </grid>
 
-::: block
-<div class="src">출처 : Javaid et al. (2023). Unlocking the opportunities through ChatGPT Tool towards ameliorating <br>the education system. BenchCouncil Transactions on Benchmarks, Standards and Evaluations, 3(2). </div>
-:::<!-- element style="margin-top:50%" -->
+
+<div class="src">Javaid et al. (2023). Unlocking the opportunities through ChatGPT Tool towards ameliorating <br>the education system. BenchCouncil Transactions on Benchmarks, Standards and Evaluations, 3(2). </div>
+<!-- element style="margin-top:50%" -->
 
 ---
 
