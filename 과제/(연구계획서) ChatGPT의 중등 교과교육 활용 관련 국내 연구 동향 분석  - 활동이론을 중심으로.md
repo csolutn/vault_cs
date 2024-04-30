@@ -79,9 +79,9 @@ margin: 0.2
 
 ---
 ### 1.2. 연구 문제
-1.  활동이론으로 분석한 ChatGTP의 중등 교과교육 활용 관련 국내 문헌의 연구 동향은 어떠한가?  <!-- element style="font-size:30px"-->
-2. ChatGPT 활용 중등 교과교육 관련 국내 문헌의 주요 키워드와 연구주제는 무엇인가?<!-- element style="font-size:30px"-->
-3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT 활용 중등 교과교육에 관한 시사점은 무엇인가? <!-- element style="font-size:30px" -->
+1.  ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 연구 동향은 어떠한가?  <!-- element style="font-size:30px"-->
+2. ChatGPT의 중등 교과교육 활용 관련 국내 문헌의 주요 키워드와 연구주제는 무엇인가?<!-- element style="font-size:30px"-->
+3. 연구 동향 분석을 통해 도출할 수 있는 ChatGPT의 중등 교과교육 활용 관한 시사점은 무엇인가? <!-- element style="font-size:30px" -->
 
 ---
 
@@ -93,8 +93,8 @@ margin: 0.2
 <grid drag="46" drop="0 20" >
 ### 2.1. 생성형 자연어 처리 AI와  ChatGPT
 * 생성형 자연어 처리 인공지능 모델 : 입력한 데이터를 이용하여 텍스트를 생성하는 기술
-* 텍스트 학습시 전처리(토큰화, 임베딩) 후 딥러닝 기반 자연어 처리 모델인 트랜스포머를 통해 인코딩(입력 문장 내 상호 관게 학습)과 디코딩(생성)
-* GPT : 트랜스포머를 활용하는 대규모 언어 생성 모델 중 하나로서 확률을 기반으로 텍스트를 생성할 수 있도록 사전 학습된 생성형 AI
+* 텍스트 학습시 전처리(토큰화, 임베딩) 후 딥러닝 기반 자연어 처리 모델인 트랜스포머<span class="src">(transformer)</span>를 통해 인코딩(상호 관계 학습)과 디코딩(생성)
+* GPT<span class="src">(Generative pre-trained transformer)</span> : 트랜스포머를 활용하는 대규모 언어 생성 모델 중 하나로서 확률을 기반으로 텍스트를 생성할 수 있도록 사전 학습된 생성형 AI
 * ChatGPT : GPT를 기반으로 인간과 상호작용을 할 수 있는 프롬프터를 제공하는 응용프로그램
 </grid>
 
@@ -110,18 +110,16 @@ margin: 0.2
 ---
 
 ### 2.2. ChatGPT의 교육적 활용 관련 선행연구
-<div class="full">
 
-* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 'AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
+* 교육에서 AI의 활용은 AIED(Artificial Intelligence in Education)이라고 불리며 <br> 'AI에 대한 교육'과 'AI를 활용한 교육'로 나뉘어 제시 <span class="src">(Holmes et al., 2019)</span>된 이래로 활발하게 연구되어오고 있음
 
 * ChatGPT의 교육적 활용 관련 주요 연구주제
 
-	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
-	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
-	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
-	* ChatGPT 활용시 제기되는 우려사항 및 제한점<span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span>
+	* 각 교과의 문제해결에서 ChatGPT의 성능 평가<br><span class="src">(Greeling et al, 2023; Frieder et al, 2023; 권오남 외, 2023; Wardat et al, 2023; Kung et al, 2023; Opne AI, 2023)</span>
+	* 교수$\cdot$학습 상황에서 ChatGPT의 활용 방안<br><span class="src">(Al-Worafi et al., 2023; Kanneci et al., 2023; 강동훈, 2023; 이수환. 송기환, 2023; Yan, 2023; 유재진, 2023; 윤양인, 2023)</span>
+	* 개별학습 상황에서 ChatGPT의 튜터 또는 피드백 제공자로의 활용 방안<br><span class="src">(Rudolph et al, 2023; Molick et al, 2023; Kasneci et al, 2023)</span>
+	* ChatGPT 활용시 제기되는 우려사항 및 제한점<br><span class="src">(C. Lo, 2023; van Dis et al 2023; Tlili et al, 2023)</span>
 
-</div>
 
 ---
 #### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
@@ -144,9 +142,10 @@ margin: 0.2
 <grid drag="85 100" drop="0 0">
 #### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구 
 * M. Javaid, A. Haleem, R.P. Singh et al.  (2023)
-	* ChatGPT의 교육적 활용의 필요성 분석과 함께<!-- element style="margin-top:10px" --><br>ChatGPT의 주요기능과 주요 적용 사례 제시
+	* ChatGPT의 교육적 활용의 필요성 분석<!-- element style="margin-top:10px" -->
+	* ChatGPT의 주요 기능과 주요 적용 사례 제시
 	* 주요 기능 <br><span class="sml">대규모 데이터 처리,  협력적 예측,  실습 세션,  실시간 교육<br> 지원,  사례 연구 기반 교육, 가상 보조,  후속 조치,  작업 기억, <br> 상호작용 교수 학습,  기록 백업</span>
-	* 적용 사례 유형<br><span class="sml">비판적 사고와 소통 능력 향상, 학습 자료 생성, 학생의 대화상대, 읽기 및 이해 능력 향상, 가상 교육 어시스턴트, 질문 능력 향상, 복합 문제 이해, 직접적 질의 응답, 브레인스토밍, 맞춤형 학습, 텍스트 분석, 에세이 작성, 학습 환경 향상, 언어 이해, 시험 준비 촉진, 정보 검색, 교수 설계 보조, 연구 도구, 문서 요약, 학업 능력 평가, 자동 채점, E-Learning, 상호작용 경험, 온라인 학습 지원, 지식 향상</span>
+	* 주요 적용 사례<br><span class="sml">비판적 사고와 소통 능력 향상, 학습 자료 생성, 학생의 대화상대, 읽기 및 이해 능력 향상, 가상 교육 어시스턴트, 질문 능력 향상, 복합 문제 이해, 직접적 질의 응답, 브레인스토밍, 맞춤형 학습, 텍스트 분석, 에세이 작성, 학습 환경 향상, 언어 이해, 시험 준비 촉진, 정보 검색, 교수 설계 보조, 연구 도구, 문서 요약, 학업 능력 평가, 자동 채점, E-Learning, 상호작용 경험, 온라인 학습 지원, 지식 향상</span>
 </grid>
 
 <grid drag="46 40" drop="50 22" >
