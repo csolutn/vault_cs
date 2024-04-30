@@ -45,7 +45,7 @@ margin: 0.2
 
 
 ---
-<!-- slide bg="#000000" -->
+<!-- slide bg="rgb(14,25,37)" -->
 
 <grid drag="50 100" drop="10 5">
 ![|500](atts/Pasted%20image%2020240421085727.png)
