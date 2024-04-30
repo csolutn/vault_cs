@@ -126,14 +126,37 @@ margin: 0.2
 ---
 #### 2.2.1. ChatGPT의 교육적 활용 동향을 분석한 선행 연구
 
-*  최나래. 김미량(2023) <br> : 2022.12. - 2023.07.에 발행된 39편의 국내 학술논문 대상<br>핵심 키워드와 연구 동향 파악
+*  최나래. 김미량(2023)
+	* 2022.12. - 2023.07.에 발행된 39편의 국내 학술논문 대상<!-- element style="margin-top:-10px" -->
+	- 핵심 키워드와 연구 동향 파악
  
-* 장혜지. 소효정(2023) <br> : 2022.12. - 2023.05.에 발행된 72편의 관련 문헌 대상 (국내: 14, 국외: 58)<br>체계적 문헌분석 (발표 시기, 연구유형, 대상 학교급, 연구 분야) <br> 텍스트 마이닝 기법을 활용한 토픽 분석 실시
+* 장혜지. 소효정(2023)
+	* 2022.12. - 2023.05.에 발행된 72편의 관련 문헌 대상 (국내: 14, 국외: 58)<!-- element style="margin-top:-10px" -->
+	- 체계적 문헌분석 (발표 시기, 연구유형, 대상 학교급, 연구 분야) 
+	- 텍스트 마이닝 기법을 활용한 토픽 분석 실시
 
-* Fütterer et al.(2023)<br> : ChatGPT 출시(2022.11.30)이후 2달 간의 트위터 데이터* 대상<br> <span class="src">(*5,541,457명의 사용자로부터 16,830,997건의 트윗)</span> <br> 토픽 모델링과 감성분석을 기반으로 교육 분야에서의 ChatGPT에 대한<br> 전 세계의 인식과 반응 분석
+* Fütterer et al.(2023) 
+	* ChatGPT 출시(2022.11.30)이후 2달 간의 트위터 데이터* 대상<!-- element style="margin-top:-10px" --><br> <span class="src">(*5,541,457명의 사용자로부터 16,830,997건의 트윗)</span>
+	* 토픽 모델링과 감성분석을 기반으로 교육 분야에서의 ChatGPT에 대한 전 세계의 인식과 반응 분석
 
 ---
-#### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구
+
+<grid drag="46 100" drop="0 0">
+#### 2.2.2. 교육분야에서 주요 기능을 분석한 선행 연구 
+* Javaid et al. (2023)
+	* ChatGPT의 교육적 활용의 필요성 분석<!-- element style="margin-top:10px" -->
+	* 교육시스템에서 ChatGPT의 10개의 주요기능과 22개의 주요 적용 사례 제시
+	* 주요 기능 : 
+	* 적용 사례 : 
+</grid>
+
+<grid drag="46 100" drop="50 0" >
+![](atts/Pasted%20image%2020240430141458.png)
+</grid>
+
+::: block
+<div class="src">출처 : Javaid et al. (2023). Unlocking the opportunities through ChatGPT Tool towards ameliorating <br>the education system. BenchCouncil Transactions on Benchmarks, Standards and Evaluations, 3(2). </div>
+:::<!-- element style="margin-top:50%" -->
 
 ---
 
@@ -154,8 +177,7 @@ margin: 0.2
 ### 3.2. 분석방법
 
 #### 3.2.1. 체계적 문헌분석
-#### 3.2.2. 데이터 전처리
-#### 3.2.3.텍스트마이닝 기법
+#### 3.2.2. 텍스트마이닝
 
 ---
 ```mermaid
