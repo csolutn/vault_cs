@@ -1,5 +1,5 @@
 .reveal{
-	font-size:25px;
+	font-size:24px;
 	color:#555555;
 	margin: 0; /* 기본 마진 제거 */
     height: 100vh; /* 뷰포트 높이의 100% 사용 */
@@ -70,7 +70,7 @@
 }
 .vsml{
 	color:#555555;
-	font-size:18px;
+	font-size:17px;
 	width: 100%;
 }
 
