@@ -3,9 +3,11 @@
 <grid drag="60 100" drop="40 0">
 <span class="nmk">
 
+toc
 
 </span>
 </grid>
 
-::: block [https://luciopaiva.com/markdown-toc/](https://luciopaiva.com/markdown-toc/)
-::: <!-- element style="margin-top:55%" class="src"-->
+
+<grid drag="100 5" drop="0 88">
+<span class="src">[https://luciopaiva.com/markdown-toc/](https://luciopaiva.com/markdown-toc/)</span> </grid>
