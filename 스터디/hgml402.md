@@ -61,7 +61,7 @@ $a, b$ 값의 변화 : <br>
 $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99,1.123)$
 
 
-![|400](attachments/Pasted%20image%2020240423000532.png)
+![|400](export/hgml402/attachments/Pasted%20image%2020240423000532.png)
 
 </grid>
 
@@ -72,7 +72,7 @@ $(2, 2) \rightarrow(1.56,1.955) \rightarrow (1.30, 1.93)\cdots \rightarrow (0.99
 <split even gap="5">
 ![|250](attachments/Pasted%20image%2020240423010546.png)
 
-![|250](attachments/Pasted%20image%2020240423010325.png)
+![|250](export/hgml402/attachments/Pasted%20image%2020240423010325.png)
 </split>
 
 
@@ -90,7 +90,7 @@ $$= -\{y\log{p} + (1-y) \log(1-p) \} $$
 
 $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 
-![|450](attachments/Pasted%20image%2020240423020546.png) <!-- element style="align-self:start" -->
+![|450](export/hgml402/attachments/Pasted%20image%2020240423020546.png) <!-- element style="align-self:start" -->
 </grid>
 
 <grid drag="46" drop="50 20" >
@@ -112,7 +112,7 @@ $$ CE  = -\frac{1}{n}\sum\{y\log{p} + (1-y) \log(1-p) \} $$
 * 종류 : 확률적 경사 하강법, 미니배치 경사 하강법, 배치 경사 하강법
 * 에포크 : 훈련세트를 한번 모두 사용하는 과정
 
-![|600](attachments/Pasted%20image%2020240423020016.png)
+![|600](export/hgml402/attachments/Pasted%20image%2020240423020016.png)
 
 ---
 
