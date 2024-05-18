@@ -4,7 +4,7 @@
 ## 1
 </grid>
 
-<grid drag="46" drop="10 20" >
+<grid drag="46" drop="4 20" >
 2
 </grid>
 
