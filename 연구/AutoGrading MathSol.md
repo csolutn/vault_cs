@@ -4,3 +4,8 @@
 * POS Tagging
 * math formula verification
 * 모범답안과 유사도 검사
+* POStaging
+	* Given
+	* ToFind
+	* Solution
+	* Conclusion
