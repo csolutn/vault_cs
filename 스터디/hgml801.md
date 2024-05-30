@@ -23,9 +23,23 @@ ML Study<!-- element style="font-size:13pt;color:white;"pad="10px" -->
 ### 학습 목표
 * 정의 : **필터(Filter)**, 패딩(Padding), 스트라이드(Stride)
 * 과정 : **합성곱(Convolution) 연산**, 풀링(Pooling) 연산
-* 이해 : 합성곱 및 풀링 과정이 필요한 이유를 이해하고 설명할 수 있다.
 
 ---
 
-## 합성곱 신경망의 연산 - filter(kernel)
-### **예제1** 아래와 같은 input과 filter가 주어졌을 때 output을 계산하시오. (단, stride = (1, 1))
+## 합성곱 신경망의 연산 
+### **예제1** 다음과 같은 input과 filter가 주어졌을 때 output을 계산하시오. (단, stride = (1, 1))
+![|350](atts/ex1.png)
+### **문제1** 다음과 같은 input과 filter가 주어졌을 때 output을 계산하시오. (단, stride = (2, 2))
+![|400](atts/q1.png)<!-- element style="margin-top:-20px;"-->
+
+
+---
+## 합성곱 연산과 필터의 역할
+![|750](atts/f1.png)
+![|750](atts/f2.png)<!-- element style="margin-top:-20px;"-->
+
+---
+## 패딩Padding
+### 필요성 : 패딩이 없다면 모서리와 가운데 입력값이 연산에 반영되는 횟수에 차이가 나게 됨
+### 패딩의 종류 : valid(패딩안함), same패딩
+### **예제1**
