@@ -4,7 +4,7 @@ margin: 0.2
 width: 1200
 ---
 <grid drag="100 3" drop="0 5" bg="#555555">
-카테고리<!-- element style="font-size:13pt;color:white;"pad="10px" -->
+카테고리<!-- element style="font-size:13pt;color:white;margin-top:30px"pad="10px" -->
 </grid>
 
 <grid drag="100 50" drop="0 20">
