@@ -9,7 +9,7 @@ width: 1200
 
 <grid drag="100 50" drop="0 20">
 ## 인공지능으로<!-- element style="margin-left:230px"-->
-# 20세에 요절한 수학천재 살리기
+# 20세에 요절한 수학천재 구하기
 </grid>
 <grid drag="100 5" drop="0 70" >
 <center>컴퓨터교육과 정솔 <br>
