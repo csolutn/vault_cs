@@ -13,7 +13,7 @@ ML Study<!-- element style="font-size:13pt;color:white;margin-top:30px"pad="10px
 <grid drag="100 5" drop="0 70" >
 <center>컴퓨터교육과 정솔 <br>
 2024.06.03.(화)</center>
-</grid>
+	</grid>
 
 ---
 ## 합성곱 신경망 (Convolution NN)
