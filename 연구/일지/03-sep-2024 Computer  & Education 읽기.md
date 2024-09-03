@@ -1,0 +1,2 @@
+* Reading : Effects of artificial Intelligence–Enabled personalized recommendations on learners’ learning engagement, motivation, and outcomes in a flipped classroom
+* Idea : Bunch of Shorts-like concept videos for flipped learning. learning outcomes 차이 보기 
