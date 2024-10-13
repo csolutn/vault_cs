@@ -1,4 +1,0 @@
-찾을 수 있는 도형 분해
-찾을 수 있는 길이 각도 모두 구하기
-구한 정보로 얻을 수 있는 답 구하기
-**[alphageometry(GitHub)](https://github.com/google-deepmind/alphageometry)**
