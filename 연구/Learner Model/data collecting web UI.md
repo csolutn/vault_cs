@@ -4,6 +4,8 @@
 * 그래프 클릭시 해당 부분으로 jump 실행
 * 빨리감기
 * download 와 submit 구분, update로 변경
+* Add, Playback 접근 권한 설정
+* Playback에 Answer Collection 탐색기 달기
 * ~~DB 구조, 설치
 * ~~dir 폴더 정리
 * ~~git
