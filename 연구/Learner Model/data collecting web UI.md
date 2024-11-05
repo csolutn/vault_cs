@@ -6,6 +6,7 @@
 * download 와 submit 구분, update로 변경
 * Add, Playback 접근 권한 설정
 * Playback에 Answer Collection 탐색기 달기
+* input method고민 (scanf, input함수에 대한 client input)
 * ~~DB 구조, 설치
 * ~~dir 폴더 정리
 * ~~git
