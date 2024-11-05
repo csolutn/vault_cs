@@ -3,7 +3,7 @@
 * 코드 실행시 결과 저장, 그래프에 표현
 * 그래프 클릭시 해당 부분으로 jump 실행
 * 빨리감기
-* download 와 submit 구분, update로 변경
+* ~~download 와 submit 구분, update로 변경
 * Add, Playback 접근 권한 설정
 * Playback에 Answer Collection 탐색기 달기
 * input method고민 (scanf, input함수에 대한 client input)
