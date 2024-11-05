@@ -27,3 +27,8 @@
 #### 4. 독립변인과 종속변인
 * 독립변인 : 학습 과제 수행 시계열 데이터
 * 종속변인 : 학습자 특성
+
+### Context
+* 맞춤형 교육은 학생 개개인의 정보의 수집으로 부터 시작해야한다.
+* keystroke dynamic는 1970년대 후반 키보드 입력 패턴을 통해 사용자를 식별하려는 목적으로 연구되었으며 ML/DL의 분류기술 및 LLM기술 향상과 함께 의미론적 분석이 가능한 지금 맞춤형 피드백의 생성을 위해 정보를 수집하고 분류, 분석할 필요가 있다.
+* 관련 연구 영역으로는 Behavioral Science, Keystroke logging, Digital Fingerprint of Learner, Learner Model, Adaptive Learning
