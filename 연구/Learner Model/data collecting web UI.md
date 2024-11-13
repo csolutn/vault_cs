@@ -6,13 +6,15 @@
 * ~~download 와 submit 구분, update로 변경
 * Add, Playback 접근 권한 설정
 * Playback에 Answer Collection 탐색기 달기
-* input method고민 (scanf, input함수에 대한 client input)
+* ~~input method고민 (scanf, input함수에 대한 client input)
 * ~~DB 구조, 설치
 * ~~dir 폴더 정리
 * ~~git
-* 웹서버 배포
-* default placeholer
-* 학생용 DashBoard
+* ~~웹서버 배포
+* ~~default placeholer~~
+* ~~학생용 DashBoard
+* 도메인 + SSL인증 + https 접속
+* 교재 단워문제생성
 ### 측정항목
 키스트로크 로깅을 통한 프로그래밍 과제 수행의 시계열 데이터로 의미 있는 분석을 수행하기 위해 다음 항목들이 적합할 수 있습니다:
 #### 1. **타이핑 속도 및 패턴** ✅
